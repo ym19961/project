@@ -1,0 +1,358 @@
+@charset "UTF-8";
+.main {
+	margin: 0 auto;
+	width: 80%;
+}
+.banner {
+	background-size: cover;
+	background: url(../images/80.jpg);
+	min-height: 200px;
+	margin: 20px auto;
+	margin-bottom: 0;
+}
+.slider {
+	height: 140px;
+	position: relative;
+	text-align: center;
+	padding-top: 30px; 
+}
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.rslides h2 {
+	color: #fff;
+	font-size: 5em;
+	width: 80%;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.rslides h3 {
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 1em;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Semibold';
+}
+.rslides li {
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+.callbacks_tabs a:after {
+	content: "\f111";
+	font-size: 0;
+	font-family: FontAwesome;
+	visibility: visible;
+	display: block;
+	height: 11px;
+	width: 11px;
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	background: #fff;
+}
+
+.callbacks_here a:after {
+	border: 2px solid #FFF;
+	background: transparent;
+}
+
+.callbacks_tabs a {
+	visibility: hidden;
+}
+
+.callbacks_tabs li {
+	display: inline-block;
+}
+ul.callbacks_tabs.callbacks1_tabs {
+	position: absolute;
+	bottom: -37%;
+	z-index: 999;
+	left: 44%;
+}
+/*welcome*/
+.welcome {
+	background-color: #eee;
+}
+.welcm-grids {
+	padding-top: 20px;
+	width: 80%;
+	font-family: "楷体";
+	margin: 0 auto;
+}
+.welcm-info {
+	text-align: center;
+}
+.welcm-info td {
+	text-align: left;
+	width: 180px;
+	color: black;
+	font-size: 23px;
+	font-weight: 300;
+}
+.welcm-info tr {
+	height: 75px;
+}
+
+.welcm-info p {
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+/*tea_info.jsp*/
+.stu_edit{
+	background-color: #E9F8FF;
+}
+.stu-top h3 {
+	color: #eae655;
+}
+
+.stu-info {
+	font-family: "楷体";
+	font-weight: 400;
+	margin: 30px auto;
+	padding: 50px;
+}
+
+.stu-info tr {
+	height: 50px;
+	font-size: 20px;
+}
+
+.stu-info td {
+	width: 180px;
+	padding: 10px 10px;
+}
+
+/*tea_set_topics*/
+.stu_select_topic {
+	margin: 20px auto;
+	font-family: "楷体";
+	font-size: 20px;
+}
+
+.stu_select_topic input {
+	width: 160px;
+}
+
+.stu_select_topic th {
+	background: #E9F8FF;
+}
+
+#right_div1 {
+	overflow: hidden;
+}
+
+#right_div2 {
+	margin-top: 20px;
+	overflow: auto;
+}
+
+#right_table1 {
+	width: 200px;
+}
+
+#right_table2 {
+	white-space: nowrap;
+}
+
+#right_table2 th {
+	background: #E9F8FF;
+	text-align: center;
+	width: 170px;
+}
+
+#right_table2 td {
+	width: 170px;
+	text-align: center;
+}
+#right_table3 {
+	white-space: nowrap;
+}
+
+#right_table3 th {
+	background: #E9F8FF;
+	text-align: center;
+	width: 170px;
+}
+
+#right_table3 td {
+	width: 170px;
+	text-align: center;
+}
+caption {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "宋体";
+}
+/*tea_topics.jsp*/
+.tea_manage {
+	font-family: "楷体";
+	font-weight: 800;
+	font-size: 20px;
+	margin: 20px auto;
+}
+
+.tea_manage tr {
+	text-align: center;
+}
+
+.tea_manage th {
+	background: #E9F8FF;
+	text-align: center;
+}
+
+.tea_manage td {
+	width: 170px;
+}
+/*tea_both_choices*/
+.Tbothchoice {
+	font-family: "楷体";
+	font-size: 19px;
+	font-weight: 800;
+	margin: 20px auto;
+}
+
+.Tbothchoice td {
+	width: 200px;
+	text-align: center;
+}
+
+.Tbothchoice tr {
+	height: 100px;
+	background: #e5efeb; 
+	text-align: center;
+}
+
+.Tbothchoice th {
+	background: #50aca2;
+	text-align: center;
+	color:#fff;
+	font-size: 22px;
+}
+
+.Tbothchoice input {
+	width: 100px;
+	text-align: center;
+}
+
+
+/*tea_template.jsp*/
+.stu_template {
+	font-family: "楷体";
+	margin: 40px;
+}
+
+.xiazai {
+	margin: 20px 20px;
+}
+
+.xiazai form {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.xiazai form input {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.xiazai p {
+	font-family: "黑体";
+	font-size: 10px;
+}
+
+.stu_template hr {
+	color: red;
+	border: dashed;
+}
+/*stu_main.jsp*/
+/* same as the tea_main.jsp */
+/*stu_edit.jsp*/
+/* same as the tea_info.jsp */
+/*stu_both_choices.jsp*/
+.bothchoice {
+	font-family: "楷体";
+	font-size: 23px;
+	font-weight: 800;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.bothchoice tr {
+	height: 100px;
+}
+
+.bothchoice th {
+	background: #E9F8FF;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.bothchoice input {
+	width: 100px;
+}
+/*stu_grade.jsp*/
+.stu_grade {
+	margin: 20px auto;
+	font-family: "楷体";
+	font-size: 20px;
+}
+
+.stu_grade input {
+	width: 160px;
+}
+
+.stu_grade th {
+	background: #E9F8FF;
+} 
+/*stu_template.jsp*/
+/*same as the tea_template.jsp*/
+/*stu_reserve.jsp*/
+.Tagenda {
+	font-family: "楷体";
+	font-size: 19px;
+	font-weight: 800;
+	margin: 20px auto;
+}
+
+.Tagenda h1{
+	text-align: center;	
+}
+
+.Tagenda td {
+	width: 200px;
+	text-align: center;
+}
+
+.Tagenda tr {
+	height: 100px;
+	background: #e5efeb; 
+	text-align: center;
+}
+
+.Tagenda th {
+	background: #50aca2;
+	text-align: center;
+	color:#fff;
+	font-size: 18px;
+}
+
+.Tagenda input {
+	width: 100px;
+	text-align: center;
+}

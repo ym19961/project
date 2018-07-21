@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.mapper.UserMapper">
+	<select id="check_User" parameterType="object" resultType="int">
+		SELECT count(*) FROM user where userid = #{userid} and password
+		=#{password}
+	</select>
+	
+	<select id="getUserById" parameterType="object" resultType="map">
+		SELECT userid,username,password,email,sex,phone,pwdpower,address,picture FROM user
+		WHERE userid=#{userid}
+	</select>
+	
+	<insert id="addUser" parameterType="object" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO user(userid,password,email,username,phone,pwdpower) 
+		VALUES(#{userid},#{password},#{email},#{username},#{phone},#{pwdpower})
+	</insert>
+	
+	<update id="updatePassword" parameterType="object">
+		UPDATE user SET password=#{newpassword},pwdpower=#{pwdpower} where userid=#{userid}
+	</update>
+	
+	<update id="updateName" parameterType="object">
+		UPDATE user SET username=#{newusername} where userid=#{userid}
+	</update>
+	
+	<update id="updatePicture" parameterType="object">
+		UPDATE user SET picture=#{newpicture} WHERE userid=#{userid}
+	</update>
+	
+	<update id="updatePhone" parameterType="object">
+		UPDATE user SET phone=#{newphone} WHERE userid=#{userid}
+	</update>
+	
+	<update id="updateAddress" parameterType="object">
+		UPDATE user SET address=#{address} WHERE userid=#{userid}
+	</update>
+</mapper>
