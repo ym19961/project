@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.manager.mapper.ManagerMapper">
+
+	<!-- 核对用户名密码是否正确 -->
+	<select id="checkManager" parameterType="object" resultType="map">
+		select userid,username
+		from manager
+		where userid = #{userid} and password = #{password}
+	</select>
+
+		<!-- 根据管理员的id展示管理员的信息 -->
+	<select id="showAdminInfo" parameterType="object" resultType="map">
+		select userid,username
+		from manager where userid= #{userid}
+	</select>
+	
+	<!-- 	查询所有管理员的信息 -->
+	<select id="showAdminAll" parameterType="object" resultType="map">
+		select userid,username
+		from manager
+	</select>
+	
+	<!-- 判断是否存在该管理员 -->
+	<select id="exsitManager" parameterType="object" resultType="map">
+		select userid,username
+		from manager
+		where userid = #{userid}
+	</select>
+	
+	<!-- 新建一条管理员的信息 -->
+	<insert id="addManager" parameterType="object">
+		INSERT INTO manager (userid,password,username)
+		values (#{userid},#{password},#{username})
+	</insert>
+	
+		<!-- 根据管理员id号更新该管理员的昵称 -->
+	<update id="updateUserName" parameterType="object">
+		UPDATE manager SET username =
+		#{username}
+		WHERE userid = #{userid}
+	</update>
+		<!-- 根据管理员id号更新该管理员的密码 -->
+	<update id="updatepassword" parameterType="object">
+		UPDATE manager SET password =
+		#{password}
+		WHERE userid = #{userid}
+	</update>
+	<!-- 根据管理员id 删除管理员 -->
+	<delete id="deleteManager">
+		DELETE FROM manager WHERE userid = #{userid}
+	</delete>
+	<!-- 展示所有菜品信息 -->
+	<select id="showdishAll" parameterType="object" resultType="map">
+		select dishid,dname,dinfo,dvalue,dtype,dimg 
+		from dish
+	</select>
+	<!-- 展示所有用户信息 -->
+	<select id="showusersAll" parameterType="object" resultType="map">
+		select userid,username,email,sex,phone,address
+		from user
+	</select>
+<!-- 	根据菜品号删除菜品 -->
+	<delete id="deletedishById">
+		DELETE FROM dish WHERE dishid = #{dishid}
+	</delete>
+	<!-- 	添加菜品 -->
+	<insert id="addDish" parameterType="object">
+		INSERT INTO dish (dname,dinfo,ddate,dvalue,dimg)
+		values (#{dname},#{dinfo},#{ddate},#{dvalue},#{dimg})
+	</insert>
+	<!-- 根据菜品号展示菜品的信息 -->
+	<select id="showdishInfo" parameterType="object" resultType="map">
+		select dishid,dname,dinfo,ddate,dvalue,dimg
+		from dish where dishid= #{dishid}
+	</select>
+	<!-- 更新菜品名 -->
+	<update id="updateDname" parameterType="object">
+		UPDATE dish SET dname =
+		#{dname}
+		WHERE dishid = #{dishid}
+	</update>
+	<!-- 更新菜品的种类 -->
+	<update id="updateDinfo" parameterType="object">
+		UPDATE dish SET dinfo =
+		#{dinfo}
+		WHERE dishid = #{dishid}
+	</update>
+	<!-- 更新单价 -->
+	<update id="updateDvalue" parameterType="object">
+		UPDATE dish SET dvalue =
+		#{dvalue}
+		WHERE dishid = #{dishid}
+	</update>
+	<!-- 展示所有评论信息 -->
+	<select id="showcommentAll" parameterType="object" resultType="map">
+		SELECT commentid,username,dname,commentary,cdate FROM comments c,USER u,dish d
+		WHERE c.userid=u.userid AND c.dishid=d.dishid 
+	</select>
+	<!-- 展示所有订单信息 -->
+	<select id="showorderAll" parameterType="object" resultType="map">
+		SELECT orderid,username,a.address,a.phone,state FROM orderinfo a,USER b 
+			WHERE a.userid=b.userid GROUP BY orderid
+	</select>
+	<!-- 显示单个订单信息 -->
+	<select id="showorderInfo" parameterType="object" resultType="map">
+		SELECT dname,num FROM orderinfo a,dish b 
+		WHERE orderid=#{orderid} AND a.dishid=b.dishid
+	</select>
+	<!-- 	接受订单 -->
+	<update id="accept" parameterType="object">
+		UPDATE orderinfo SET state ='1'
+		WHERE orderid = #{orderid}
+	</update>
+	<!-- 拒绝订单 -->
+	<update id="refuse" parameterType="object">
+		UPDATE orderinfo SET state =0
+		WHERE orderid = #{orderid}
+	</update>
+	<!-- 删除评论 -->
+	<delete id="deleteComment">
+		DELETE FROM comments WHERE commentid = #{commentid}
+	</delete>
+</mapper>

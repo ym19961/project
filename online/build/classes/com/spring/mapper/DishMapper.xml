@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.mapper.DishMapper">
+
+<select id="getDishesAll" resultType="map">
+		SELECT dishid,dname,dinfo,dvalue,xiaoliang FROM dish 
+</select>
+
+<select id="searchDishByText" parameterType="object" resultType="map">
+	SELECT dishid,dname,dinfo,dvalue,xiaoliang FROM dish where dname LIKE CONCAT('%',#{dishtext},'%')
+</select>
+
+<select id="valueAscOrder" resultType="map">
+		SELECT dishid,dname,dinfo,dvalue,xiaoliang from dish ORDER BY dvalue ASC
+</select>
+
+<select id="xiaoliangDescOrder" resultType="map">
+		SELECT dishid,dname,dinfo,dvalue,xiaoliang from dish ORDER BY xiaoliang DESC
+</select>
+
+<select id="getDishById" parameterType="object" resultType="map" >
+		SELECT dishid,dname,dinfo,dvalue,xiaoliang FROM dish WHERE dishid=#{dishid}
+</select>
+
+<select id="getDishTop3" resultType="map">
+	SELECT dishid,dname,dinfo,dvalue,xiaoliang from dish ORDER BY xiaoliang DESC limit 0,3
+</select>
+</mapper>

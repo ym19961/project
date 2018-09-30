@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.mapper.OrderMapper">
+<insert id="addOrder" parameterType="object" useGeneratedKeys="true" keyProperty="id">
+	INSERT INTO orderinfo(orderid,userid,address,phone,notice,totalprice,state,orderdate,dishid,num) 
+	VALUES(#{orderid},#{userid},#{address},#{phone},#{notice},#{totalprice},#{state},#{orderdate},#{dishid},#{num})
+</insert>
+
+<select id="getAllOrders" resultType="map">
+	SELECT orderid,userid,orderdate,state from orderinfo GROUP BY orderid
+</select>
+
+<delete id="deleteOrderById" parameterType="object">
+	DELETE FROM orderinfo WHERE orderid=#{orderid}
+</delete>
+
+<select id="getDishIdById" parameterType="object" resultType="string">
+	SELECT dishid FROM orderinfo WHERE orderid=#{orderid}
+</select>
+<select id="getNumById" parameterType="object" resultType="string">
+	SELECT num FROM orderinfo WHERE orderid=#{orderid}
+</select>
+</mapper>
