@@ -1,0 +1,1323 @@
+/*管理员  */
+.adminManage {
+	font-family: "楷体";
+	font-weight: 800;
+	margin: 60px;
+	margin-top: 10px;
+	width: 1000px;
+	/* background-color:pink;  */
+	background: url("../images/wu.jpg") 0px 0px;
+}
+
+.adminManage tr {
+	height: 70px;
+	text-align: center;
+}
+
+.adminManage th {
+	background: #E9F8FF;
+	text-align: center;
+}
+
+.adminManage td {
+	width: 250px;
+	text-align: center;
+}
+/*tea_topics_detailed  */
+.tea_topics_detailed {
+	font-family: "楷体";
+	font-weight: 800;
+	margin: 40px;
+}
+
+/*时间管理 */
+.time_manage {
+	font-family: "楷体";
+	text-align: center;
+	font-size: 23px;
+	font-weight: 800;
+	margin: 300px;
+	margin-top: 80px;
+	width: 500px;
+	background: url("../images/wu.jpg") 0px 0px;
+}
+
+.time_manage td {
+	width: 100px;
+}
+
+.time_manage tr {
+	height: 60px;
+}
+
+.time_manage th {
+	text-align: center;
+	background: #E9F8FF;
+}
+/*学生修改题目 */
+.stu_topic_detailed {
+	font-family: "楷体";
+	text-align: center;
+	font-size: 23px;
+	font-weight: 800;
+	margin: 30px;
+	width: 550px;
+}
+
+.stu_topic_detailed td {
+	width: 250px;
+}
+
+.stu_topic_detailed tr {
+	height: 60px;
+}
+
+.stu_topic_detailed input {
+	width: 150px;
+}
+
+.stu_topic_detailed th {
+	text-align: center;
+	background: #E9F8FF;
+}
+/*学生双选 */
+.bothchoice {
+	font-family: "楷体";
+	font-size: 23px;
+	font-weight: 800;
+	margin: 40px;
+	margin-top: 80px;
+	width: 1100px;
+	text-align: center;
+}
+
+.bothchoice td {
+	width: 200px;
+}
+
+.bothchoice tr {
+	height: 100px;
+}
+
+.bothchoice th {
+	background: #E9F8FF;
+	text-align: center;
+}
+
+.bothchoice input {
+	width: 100px;
+}
+/*教师双选 */
+.Tbothchoice {
+	font-family: "楷体";
+	font-size: 19px;
+	font-weight: 800;
+	margin: 40px;
+	margin-top: 80px;
+	width: 1100px;
+}
+
+.Tbothchoice td {
+	width: 200px;
+	text-align: center;
+}
+
+.Tbothchoice tr {
+	height: 100px;
+}
+
+.Tbothchoice th {
+	background: #E9F8FF;
+	text-align: center;
+}
+
+.Tbothchoice input {
+	width: 100px;
+}
+
+/* 学生查看成绩 */
+.stu_grade {
+	font-family: "楷体";
+	font-weight: 800;
+	font-size: 25px;
+	margin: 50px 40px;
+	width: 1000px;
+	height: 500px;
+	/*    background-color:pink;   */
+}
+
+.stu_grade label {
+	font-size: 30px;
+	height: 50px;
+}
+
+.stu_grade tr {
+	text-algin: center;
+	height: 100px;
+}
+
+.stu_grade td {
+	width: 400px;
+}
+
+.odd {
+	background-color: #c7e5ff;
+}
+
+.even {
+	background-color: #eaf5ff;
+}
+/* 教师汇总 */
+.tea_summary {
+	font-family: "楷体";
+	font-weight: 800;
+	margin: 50px 40px;
+	width: 1000px;
+	height: 500px;
+	/*    background-color:pink;   */
+}
+
+.tea_summary tr {
+	height: 50px;
+	text-align: center;
+}
+
+.tea_summary th {
+	background: #E9F8FF;
+	text-align: center;
+}
+
+.tea_summary td {
+	width: 100px;
+	/*     background-color:yellow;    */
+}
+/*评定小组  */
+.shenhe {
+	font-family: 行楷;
+	font-weight: 800;
+	width: 150px;
+	height: 190px;
+	/*      background-color:pink;  */
+	/* 	background: url("../images/wu.jpg") 0px 0px;  */
+	position: fixed;
+	bottom: 0;
+}
+
+.teachergroup {
+	font-family: "楷体";
+	font-weight: 800;
+	margin: 50px;
+	width: 1050px;
+	/*     background-color:pink;  */
+	background: url("../images/wu.jpg") 0px 0px;
+}
+
+.teachergroup tr {
+	height: 70px;
+	text-align: center;
+}
+
+.teachergroup td {
+	margin: 20px 20px;
+	width: 120px;
+}
+/* adminmanage */
+.adminmanage {
+	font-family: "楷体";
+	margin: 30px;
+	width: 900px;
+	height: 50px;
+	font-size: 40px;
+	text-align: center;
+	/* background-color:pink; */
+	/* background: url("../images/qiqiu.jpeg")0px 0px ; */
+}
+/* newadd */
+.newadd {
+	font-family: "黑体";
+	margin-left: 940px;
+	width: 50px;
+	height: 30px;
+	font-size: 20px;
+	/* background-color:pink;    */
+	/* background: url("../images/qiqiu.jpeg")0px 0px ; */
+}
+
+.outExcel {
+	font-family: "黑体";
+	margin-left: 890px;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+}
+/* tea_add */
+.tea_add {
+	font-family: "黑体";
+	width: 1000px;
+	height: 200px;
+	font-size: 20px;
+}
+/* adminadd */
+.adminadd {
+	font-family: "楷体";
+	height: 1000px;
+	background-color: pink;
+	/* background: url("../images/qiqiu.jpeg")0px 0px ; */
+}
+
+.adminadd table {
+	background-color: pink;
+	font-size: 10px;
+	height: 200px;
+}
+
+.adminadd table th {
+	height: 50px;
+	font-size: 1px;
+	background-color: pink;
+}
+
+.adminadd table td {
+	width: 100px;
+}
+/* 格式下载 */
+.stu_template {
+	font-family: "楷体";
+	margin: 40px;
+	width: 1000px;
+	height: 550px;
+	/*    background-color:pink;    */
+	/* background: url("../images/qiqiu.jpeg")0px 0px ; */
+}
+
+.xiazai {
+	margin: 20px 20px;
+	height: 100px;
+}
+
+.xiazai form {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.xiazai form input {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.xiazai p {
+	font-family: "黑体";
+	font-size: 10px;
+}
+
+.stu_template hr {
+	color: red;
+	border: dashed;
+}
+/* 文档管理 */
+.manage {
+	font-family: "楷体";
+	font-weight: 800;
+	font-size: 20px;
+	margin: 50px 50px;
+	width: 1000px;
+	/*    background-color:pink;   */
+	background: url("../images/wu.jpg") 0px 0px;
+}
+
+.manage input {
+	width: 200px;
+}
+
+.manage tr {
+	height: 120px;
+	text-align: center;
+}
+
+.manage td {
+	width: 200px;
+	/*    background-color:yellow;  */
+}
+
+.manage button {
+	width: 50px;
+	/*    background-color:hsl(200, 100%, 70%);   */
+}
+/* 教师文档管理 */
+.tea_manage {
+	font-family: "楷体";
+	font-weight: 800;
+	font-size: 20px;
+	margin: 50px;
+	width: 900px;
+	/*    background-color:pink;   
+	background: url("../images/wu.jpg") 0px 0px;*/
+}
+
+.tea_manage tr {
+	height: 80px;
+	text-align: center;
+}
+
+.tea_manage th {
+	background: #E9F8FF;
+	text-align: center;
+}
+
+.tea_manage td {
+	width: 200px;
+	/*    background-color:yellow;  */
+}
+/* 管理员双选管理 */
+.shuangxuan_manage {
+	font-family: "楷体";
+	font-weight: 800;
+	font-size: 20px;
+	margin: 50px;
+	margin-top: 10px;
+	width: 1000px;
+	/*    background-color:pink;   
+	background: url("../images/wu.jpg") 0px 0px;*/
+}
+
+.shuangxuan_manage tr {
+	height: 80px;
+	text-align: center;
+}
+
+.shuangxuan_manage th {
+	background: #E9F8FF;
+	text-align: center;
+}
+
+.shuangxuan_manage td {
+	width: 150px;
+	/*    background-color:yellow;  */
+}
+
+/*论文选题*/
+.stu_select_topic {
+	margin: 50px 50px;
+	width: 80px;
+	height: 70px;
+	font-family: "楷体";
+	font-size: 20px;
+}
+
+.stu_select_topic input {
+	width: 160px;
+}
+
+.stu_select_topic th {
+	background: #E9F8FF;
+}
+
+/*联系我们*/
+.connectus {
+	margin: 70px 100px;
+	width: 900px;
+	height: 500px;
+	/*   background-color:blue;
+	 background: url("../images/liang.jpg") no-repeat 0px 0px;	 */
+	font-family: "楷体";
+	font-size: 20px;
+}
+/*登录*/
+h1 {
+	text-align: center;
+	margin: 50px 0;
+	font-family: "楷体";
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.tabs-menu {
+	width: 60%;
+	float: left;
+	height: 410px;
+	background: url("../images/10.jpg") no-repeat 0px 0px;
+	background-size: 560px 510px;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none
+}
+
+.tabs-menu ul li a:hover {
+	background-color: #ffccff;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.tab-grids {
+	width: 40%;
+	float: left;
+	font-family: 黑体;
+}
+
+.signin {
+	background-color: #80ff80;
+	/*background: #62afd0 url("../images/10.png") no-repeat 5px 3px;*/
+}
+
+.signin form {
+	width: 60%;
+	padding: 40px 30px;
+	margin: 0 auto;
+	height: 330px;
+}
+
+.signin form select {
+	width: 205px;
+}
+
+input.user {
+	width: 83%;
+	padding: 5px 10px 5px 35px;
+	background: #efefef url("../images/user.png") no-repeat 5px 3px;
+	font-size: 15px;
+	color: #927587;
+	letter-spacing: 1px;
+	outline: none;
+	border-radius: 3px;
+	border: none;
+	margin: 5px 0 10px 0;
+}
+
+select.choose {
+	width: 234px;
+	padding: 5px 10px 5px 35px;
+	background: #efefef url("../images/mail.png") no-repeat 5px 5px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: #927587;
+	outline: none;
+	border-radius: 3px;
+	border: none;
+	margin: 5px 0 10px 0;
+	-moz-appearance: none;
+}
+
+input.pass {
+	width: 83%;
+	padding: 5px 10px 5px 35px;
+	background: #efefef url("../images/pass.png") no-repeat 5px 4px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #927587;
+	outline: none;
+	border-radius: 3px;
+	border: none;
+	margin: 10px 0;
+}
+
+.outline-inward {
+	display: inline-block;
+	position: relative;
+	background-color: #EEE;
+	color: #791653;
+	width: 50%;
+	text-align: center;
+	padding: 4px 0;
+	font-family: Nunito-Regular;
+	font-size: 20px;
+	margin: 17px 0 0;
+	margin-left: 27%;
+}
+
+.outline-inward:before {
+	content: '';
+	position: absolute;
+	border: #ececec solid 4px;
+	top: -16px;
+	right: -16px;
+	bottom: -16px;
+	left: -16px;
+	opacity: 0;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+	-webkit-transition-property: top right bottom left;
+	transition-property: top right bottom left;
+}
+
+.outline-inward:hover:before {
+	top: -8px;
+	right: -8px;
+	bottom: -8px;
+	left: -8px;
+	opacity: 1;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.footer p {
+	font-family: Oswald-Light;
+	color: #000;
+	font-size: 16px;
+}
+
+.footer a {
+	color: #000;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+	color: #791653;
+}
+
+/*-- Index-Page-Styling --*/
+
+/*--- Responsinator Code ---*/
+
+/* 登录页面 */
+@media screen and (max-width:1680px) {
+	h1 {
+		margin: 80px 0;
+		font-size: 40px;
+	}
+	.container {
+		width: 60%;
+	}
+	.footer {
+		margin-top: 150px;
+	}
+}
+
+/*登录*/
+h4, h5, h6, h1, h2, h3 {
+	margin: 0;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+html, body {
+	font-family: 'OpenSans-Regular';
+	font-size: 100%;
+	background: #ffffff;
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+body {
+	padding-top: 0px;
+}
+
+h1.b1, h2.b2, h3.b3 {
+	margin-bottom: 25px;
+	display: block;
+}
+
+a:focus {
+	outline: thin dotted;
+	outline: 0px auto -webkit-focus-ring-color;
+	outline-offset: 0px;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url(../fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-Semibold';
+	src: url(../fonts/OpenSans-Semibold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-ExtraBold';
+	src: url(../fonts/OpenSans-ExtraBold.ttf) format('truetype');
+}
+/*-- header_top 主页--*/
+.sidebar {
+	background: #fff;
+	top: 0px;
+	padding: 2em 0px 0 0px;
+}
+
+.sidebar_top {
+	text-align: center;
+}
+
+.sidebar h1 a {
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-bottom: 1em;
+	display: inline-block;
+	text-decoration: none;
+	color: #83d5d1;
+	font-family: 'OpenSans-ExtraBold';
+	background-color: #333;
+	padding: 15px 14px;
+	border-radius: 6px;
+}
+
+.sidebar h1 a span {
+	color: #eae655;
+}
+
+span.menu {
+	display: none;
+}
+
+.top-menu ul li {
+	display: block;
+}
+
+.top-menu ul li a {
+	display: block;
+	color: #333;
+	padding-bottom: 1.5em;
+	font-family: 'OpenSans-Bold';
+	font-size: 1.0em;
+	text-align: center;
+}
+
+.top-menu ul li.active a, .top-menu ul li a:hover {
+	color: #83d5d1;
+	text-decoration: none;
+}
+
+.side-pics {
+	float: left;
+	width: 22%;
+}
+
+.side-content {
+	width: 1020px;
+	float: left;
+}
+
+.main {
+	padding: 0;
+	border-left: 1px solid #EFEFEF;
+}
+
+.social-icons ul li {
+	padding: 0em;
+	list-style: none;
+	display: inline-block;
+}
+
+.social-icons ul li a {
+	display: inline-block;
+	margin: 0.5em 0.3em;
+}
+
+.social-icons ul li a  span.fa {
+	background-position: -2px -43px;
+}
+
+.social-icons ul li a span.tw {
+	background-position: -42px -44px;
+}
+
+.social-icons ul li a span.g {
+	background-position: -88px -45px;
+}
+
+.social-icons ul li a span.in {
+	background-position: -131px -45px;
+}
+
+.social-icons ul li span {
+	background: url(../images/social.png) no-repeat;
+	width: 34px;
+	height: 36px;
+	display: block;
+}
+
+.social-icons ul li a:hover {
+	opacity: 0.7;
+}
+
+.social-icons {
+	text-align: center;
+}
+/*主页
+.icons{
+	position:relative;
+}*/
+.side-btm {
+	position: absolute;
+	bottom: 20px;
+}
+
+.copyright {
+	text-align: center;
+	padding: 0 1em;
+}
+
+.copyright p {
+	color: #999;
+	line-height: 1.8em;
+	font-size: 0.8em;
+	margin: 20px;
+}
+
+.copyright p a {
+	color: #999;
+}
+/*--主页--*/
+.col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main {
+	float: left;
+}
+
+.banner {
+	background-size: cover;
+	background: url(../images/80.jpg);
+	min-height: 200px;
+}
+
+.slider {
+	height: 140px;
+	position: relative;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides h2 {
+	color: #fff;
+	font-size: 5em;
+	width: 81%;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.rslides h3 {
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 1em;
+	text-transform: uppercase;
+	font-family: 'OpenSans-Semibold';
+}
+
+.rslides li {
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.callbacks_tabs a:after {
+	content: "\f111";
+	font-size: 0;
+	font-family: FontAwesome;
+	visibility: visible;
+	display: block;
+	height: 11px;
+	width: 11px;
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	background: #fff;
+}
+
+.callbacks_here a:after {
+	border: 2px solid #FFF;
+	background: transparent;
+}
+
+.callbacks_tabs a {
+	visibility: hidden;
+}
+
+.callbacks_tabs li {
+	display: inline-block;
+}
+
+ul.callbacks_tabs.callbacks1_tabs {
+	position: absolute;
+	bottom: -37%;
+	z-index: 999;
+	left: 44%;
+}
+/*---welcome--*/
+.welcome {
+	
+}
+
+.welcm-grids {
+	padding-top: 20px;
+	float: right;
+	width: 78%;
+	font-family: "楷体";
+	/*background-color: pink; */
+	/*background: #efefef ; */
+}
+
+.welcm-info {
+	text-align: left;
+}
+
+.welcm-info td {
+	text-align: left;
+	width: 180px;
+	color: black;
+	font-size: 23px;
+	font-weight: 300;
+}
+
+.welcm-info tr {
+	height: 75px;
+}
+
+.welcm-info p {
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+/*--服务-services--*/
+.services {
+	
+}
+
+.service-sec {
+	float: right;
+	width: 78%;
+	background-color: rgba(211, 211, 211, 0.23);
+	padding: 4em 0 5em;
+	height: 410px;
+}
+
+span.glyphicon {
+	margin-bottom: 2em;
+}
+
+.service_grids {
+	margin-top: 5em;
+}
+
+.services h3 {
+	color: #83d5d1;
+	font-size: 2.3em;
+	font-family: 'OpenSans-Bold';
+	text-align: center;
+}
+
+.service_grid img {
+	margin-bottom: 20px;
+}
+
+.service_grid h6 a {
+	text-decoration: none;
+	color: #eae655;
+	font-family: 'OpenSans-Bold';
+	font-size: 1.55em;
+	margin-bottom: 8px;
+	display: inline-block;
+}
+
+.service_grid  p {
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+.service_grid h6 a:hover {
+	color: #83d5d1;
+}
+
+.glyphicon-asterisk:before, .glyphicon-wrench:before, .glyphicon-user:before
+	{
+	color: #333;
+	font-size: 3em;
+}
+/*---资讯news--*/
+.news-sec {
+	float: right;
+	width: 78%;
+	padding: 3em 1em 5em 1em;
+}
+
+.news-sec h3 {
+	color: #83d5d1;
+	font-size: 2.3em;
+	font-family: 'OpenSans-Bold';
+	text-align: center;
+}
+
+.news-top {
+	margin-top: 3em;
+}
+
+.news-1 h5 {
+	color: #eae655;
+	font-size: 1.2em;
+	font-family: 'OpenSans-Bold';
+	margin: 0em;
+}
+
+.news-1 h6 {
+	color: #ACABAB;
+	font-size: 0.9em;
+	font-weight: 700;
+	margin: 1em 0;
+}
+
+.news-1 p {
+	font-size: 0.9em;
+	color: #999;
+	line-height: 1.8em;
+	margin: 0 0 1em 0;
+}
+
+a.read {
+	color: #83d5d1;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 0.3em 0em;
+}
+
+a.read:hover {
+	color: #333;
+}
+
+.footer {
+	padding: 3em 1em;
+	background: #eee;
+}
+
+.footer p {
+	color: #777;
+	line-height: 1.8em;
+	font-size: 0.8em;
+}
+
+.footer p a {
+	color: #777;
+}
+
+.ftr-grid1 h4, .news-ltr h4 {
+	color: #83d5d1;
+	font-size: 1.5em;
+	font-family: 'OpenSans-Bold';
+	margin-bottom: 1em;
+}
+
+.ftr-grid1 p, .news-ltr p {
+	color: #777;
+	line-height: 1.8em;
+	font-size: 0.9em;
+}
+
+.news-ltr form input[type="text"] {
+	width: 72%;
+	padding: 12px 12px;
+	float: left;
+	color: #333;
+	outline: none;
+	background: none;
+	border: none;
+	background: #fff;
+	font-size: 0.9em;
+}
+
+.news-ltr form input[type="submit"] {
+	width: 22%;
+	color: #333;
+	border: 2px solid #eae655;
+	outline: none;
+	padding: 10px 12px;
+	background: #eae655;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	float: left;
+	font-size: 0.9em;
+}
+
+.news-ltr form input[type="submit"]:hover {
+	border: 2px solid #83d5d1;
+	background: transparent;
+	color: #83d5d1;
+}
+
+.news-ltr form {
+	margin-top: 2em;
+}
+/*--about--*/
+.about {
+	padding: 3em;
+}
+
+.about h3, .gallery h3, h3.typogrphy, .contact h3, .projects h3 {
+	color: #83d5d1;
+	font-size: 2.3em;
+	font-family: 'OpenSans-Bold';
+	text-align: center;
+}
+
+.stu-top {
+	margin-top: 4em;
+}
+
+.stu-top h3 {
+	color: #eae655;
+}
+
+.stu-info {
+	font-family: "楷体";
+	font-weight: 400;
+	width: 1000px;
+	padding: 2em 2em;
+	margin: 1em auto;
+	/* background-color:pink; */
+	/*background: #efefef url("../images/wu.jpg") no-repeat;*/
+	background-size: 1000px 100%
+}
+
+.stu-info tr {
+	height: 50px;
+	font-size: 20px;
+}
+
+.stu-info td {
+	width: 180px;
+	padding: 10px 10px;
+}
+
+.abt-info p {
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+.testimonal {
+	background: #333;
+	padding: 4em 3em;
+}
+
+ul.project_box {
+	padding: 0;
+	list-style: none;
+}
+
+ul.project_box li.mini-post-meta1 {
+	display: block;
+	float: left;
+	text-align: center;
+	margin: 0px 5% 0 0;
+	color: #fff;
+	font-size: 1.4em;
+	font-family: 'OpenSans-Bold';
+}
+
+ul.project_box li.desc {
+	overflow: hidden;
+}
+
+ul.project_box li.desc h4 a {
+	color: #fff;
+	font-size: 1.2em;
+	font-family: 'OpenSans-Bold';
+	margin-top: 3px;
+	display: inline-block;
+}
+
+ul.project_box li.desc h4 a:hover {
+	color: #83d5d1;
+}
+
+ul.project_box li.desc p {
+	color: #fff;
+	font-size: 0.9em;
+	line-height: 1.8em;
+	margin-top: 8px;
+}
+
+.testi {
+	margin-top: 3em;
+}
+
+.testimonal h3 {
+	color: #fff;
+	font-size: 2em;
+	font-family: 'OpenSans-Bold';
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+.team-grid1 h4 {
+	font-size: 18px;
+	line-height: 1.2em;
+	font-family: 'OpenSans-Bold';
+	color: #eae655;
+	margin-top: 1.2em;
+}
+
+.team-grid1 p {
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1.8em;
+	margin-top: 0.7em;
+}
+
+.team-work {
+	padding: 3em 0em;
+}
+
+.team-work h3 {
+	color: #83d5d1;
+	font-size: 2em;
+	font-family: 'OpenSans-Bold';
+	text-align: center;
+}
+
+.team-grids {
+	margin-top: 3em;
+}
+
+.team-grid1 {
+	padding: 0 30px;
+}
+
+/*--联系我们 --*/
+.contact {
+	padding: 3em;
+}
+
+.map iframe {
+	width: 100%;
+	height: 300px;
+	margin: 2em 0;
+}
+
+.contact-text {
+	margin-top: 4%;
+}
+
+.contact-left input[type="text"] {
+	width: 32.51%;
+	margin: 0px;
+	color: #333;
+	background: none;
+	padding: 15px 10px;
+	outline: none;
+	border: 1px solid #333;
+}
+
+.contact-left textarea {
+	width: 100%;
+	color: #333;
+	resize: none;
+	background: none;
+	height: 12.7em;
+	padding: 15px;
+	outline: none;
+	border: 1px solid #333;
+	margin-top: 1.4%;
+}
+
+.submit-btn input[type=submit] {
+	color: #fff;
+	padding: 9px 42px;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: 500;
+	margin: 20px 0 0 0px;
+	border: 3px solid #83d5d1;
+	background: #83d5d1;
+	outline: none;
+}
+
+.submit-btn input[type=submit]:hover, .reply input[type="submit"]:hover
+	{
+	background: transparent;
+	color: #83d5d1;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+
+.address h5 {
+	color: #eae655;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.contact-left input[type="text"]:nth-child(2) {
+	margin: 0 6px;
+}
+
+.address p {
+	color: #999;
+	font-size: 0.85em;
+	line-height: 1.6em;
+	margin-top: 1em;
+}
+
+.address p span {
+	display: block;
+}
+
+.address p a {
+	color: #999;
+}
+
+.address:nth-child(1) {
+	margin-bottom: 2em;
+}
+
+.top-navigation {
+	display: none;
+}
